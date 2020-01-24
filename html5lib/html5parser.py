@@ -2,7 +2,7 @@ from __future__ import absolute_import, division, unicode_literals
 from six import with_metaclass, viewkeys
 
 import types
-from collections.abc import OrderedDict
+from collections import OrderedDict
 
 from . import _inputstream
 from . import _tokenizer
